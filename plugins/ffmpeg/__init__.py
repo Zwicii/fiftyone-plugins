@@ -47,7 +47,7 @@ class CountSamples(foo.Operator):
         outputs = types.Object()
         outputs.int(
             "count",
-            label=f"Number of samples in the current {target.lower()}",
+            label=f"Number of samples in the current hi{target.lower()}",
         )
         return types.Property(outputs)
 
